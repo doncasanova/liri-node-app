@@ -15,48 +15,31 @@ var client1 = (keys.twitter);
 var Twitter = require('twitter');
  
 var client = new Twitter({
-  client1
+  consumer_key: 'MBwRxdU3oiJnjzqhiXJSjXYAv',
+  consumer_secret: 'c5SykiH8Vg8iuesIMZdzAHpHRMhw1TpbdWXB6Dp4fEYZivCZLV',
+  access_token_key: '995408439881977863-JS9Y6SLjH2RWMeEuuUm3Zp2X7I9OXAe',
+  access_token_secret: 'EJcJ8RY5pu8oSBZG7kgMMJTOBPCM8sPIw8LuVp9WcYoD6'
 });
 //  console.log(client)
 
- client.get('favorites/list', function(error, tweets, response) {
-  if(error) throw error;
-  console.log(tweets);  // The favorites.
-  console.log(response);  // Raw response object.
+//  client.get('favorites/list', function(error, tweets, response) {
+//   if(error) throw error;
+//   console.log(tweets);  // The favorites.
+//   console.log(response);  // Raw response object.
+// });
+var params = {screen_name: 'Fred Flinstone'};
+client.get('statuses/user_timeline', params, function(error, tweets, response) {
+  if (!error) {
+    console.log(tweets);
+  }
 });
+
+// client.post('statuses/update', {status: 'I Love Twitter'},  function(error, tweet, response) {
+//   if(error) throw error;
+//   console.log(tweet);  // Tweet body.
+//   console.log(response);  // Raw response object.
+// });
  
-// var params = {screen_name: 'nodejs'};
-// client.get('statuses/user_timeline', params, function(error, tweets, response) {
-//   if (!error) {
-//     console.log(tweets);
-//   }
-// });
-
-// var request = require("request");
-// function twitterRun(request){
-// client.get("https://api.twitter.com/1.7.1/direct_messages.json?since_id= + keys.twitter.twitter_consumer_key + &count=1",
-// function(error, response, body) {
-
-//     console.log(body);
-// //   }
-// // });
-// });
-// }
-// twitterRun(request)
-
-
-// var request = require("request");
-// function spotifyRun(request){
-// request("https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6/albums?album_type=SINGLE&offset=20&limit=10",
-// function(error, response, body) {
-
-//   console.log(body);
-// //   }
-// // });
-// });
-// }
-
-
 
 function checkBox(){
 // Load the NPM Package inquirer
