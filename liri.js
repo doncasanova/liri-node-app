@@ -54,12 +54,18 @@ function movieCall(nameOfmovie) {
     if (!error && response.statusCode === 200) {
 
       var movieOb = JSON.parse(body)
+      
+      for (var i = 0; i < movieOb.Ratings.length; i++) {
+        if (movieOb.Ratings[i].Source == 'Rotten Tomatoes') {
+          rottenTom = movieOb.Ratings[i].Value;
+        }
+      }
 
       // Then we print out the imdbRating
       console.log("The movie's title is: " + movieOb.Title);
       console.log("Year the movie came out: " + movieOb.Year);
       console.log("The movie's rating is: " + movieOb.imdbRating);
-      console.log("The movie's rating is: " + movieOb.Ratings[1]);
+      console.log("The movie's Rotten tomatoes rating is: " + rottenTom);
       console.log("Country where the movie was produced: " + movieOb.Country);
       console.log("Language of the movie: " + movieOb.Language);
       console.log("Plot of the movie: " + movieOb.Plot);
@@ -70,15 +76,13 @@ function movieCall(nameOfmovie) {
         "\n" + "The movie's title is: " + movieOb.Title +
         " \n" + "Year the movie came out: " + movieOb.Year +
         " \n " + "The movie's rating is: " + movieOb.imdbRating +
-        " \n" + "The movie's rating is: " + movieOb.Ratings[1] +
+        " \n" + "The movie's Rotten tomatoes rating is: " + rottenTom +
         " \n" + "Country where the movie was produced: " + movieOb.Country +
         " \n" + "Language of the movie: " + movieOb.Language +
         " \n" + "Plot of the movie: " + movieOb.Plot +
         " \n" + "Actors in the movie: " + movieOb.Actors;
-
-
       addTextToFile(output)
-      console.log(movieOb)
+      // console.log(movieOb)
 
       // * Rotten Tomatoes Rating of the movie.
     }
@@ -87,8 +91,8 @@ function movieCall(nameOfmovie) {
 
 //-----------------------------------------------------------------------------------------
 // calls text from random.txt file
-function textFileCall(){
-  fs.readFile("random.txt", "utf8", function(error, data) {
+function textFileCall() {
+  fs.readFile("random.txt", "utf8", function (error, data) {
 
     if (error) {
       return console.log(error);
@@ -97,9 +101,9 @@ function textFileCall(){
     var movie = dataArr[1]
 
     addTextToFile('song added from random.txt   ' + dataArr[1] + "\n");
-  
+
   });
-  
+
 }
 
 //-----------------------------------------------------------------------------------------

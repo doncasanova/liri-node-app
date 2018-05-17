@@ -1,25 +1,64 @@
-The movie's rating is: 7.8The movie's rating is: 7.8I Love Twitterhello world how are you tonighthello all, this is my first tweet everhello world how are you tonight
-I Love Twitter
-hello all, this is my first tweet ever
-I Love Twitter
-hello world how are you tonight
-hello all, this is my first tweet ever
-The movie's rating is: 7.8I Love Twitter
-hello world how are you tonight
-hello all, this is my first tweet ever
 
+=================movie stuff here====================
+The movie's title is: Office Space 
+Year the movie came out: 1999 
+ The movie's rating is: 7.8 
+The movie's Rotten tomatoes rating is: undefined 
+Country where the movie was produced: USA 
+Language of the movie: English 
+Plot of the movie: Three company workers who hate their jobs decide to rebel against their greedy boss. 
+Actors in the movie: Ron Livingston, Jennifer Aniston, David Herman, Ajay Naidu
+=================movie stuff here====================
+The movie's title is: Office Space 
+Year the movie came out: 1999 
+ The movie's rating is: 7.8 
+The movie's Rotten tomatoes rating is: undefined 
+Country where the movie was produced: USA 
+Language of the movie: English 
+Plot of the movie: Three company workers who hate their jobs decide to rebel against their greedy boss. 
+Actors in the movie: Ron Livingston, Jennifer Aniston, David Herman, Ajay Naidu
+=================movie stuff here====================
+The movie's title is: Office Space 
+Year the movie came out: 1999 
+ The movie's rating is: 7.8 
+The movie's Rotten tomatoes rating is: "\"79%\"" 
+Country where the movie was produced: USA 
+Language of the movie: English 
+Plot of the movie: Three company workers who hate their jobs decide to rebel against their greedy boss. 
+Actors in the movie: Ron Livingston, Jennifer Aniston, David Herman, Ajay Naidu
+=================movie stuff here====================
+The movie's title is: Fried Green Tomatoes 
+Year the movie came out: 1991 
+ The movie's rating is: 7.7 
+The movie's Rotten tomatoes rating is: 73% 
+Country where the movie was produced: USA 
+Language of the movie: English 
+Plot of the movie: A housewife who is unhappy with her life befriends an old lady in a nursing home and is enthralled by the tales she tells of people she used to know. 
+Actors in the movie: Kathy Bates, Mary Stuart Masterson, Mary-Louise Parker, Jessica Tandy
+=================movie stuff here====================
+The movie's title is: Office Space 
+Year the movie came out: 1999 
+ The movie's rating is: 7.8 
+The movie's Rotten tomatoes rating is: 79% 
+Country where the movie was produced: USA 
+Language of the movie: English 
+Plot of the movie: Three company workers who hate their jobs decide to rebel against their greedy boss. 
+Actors in the movie: Ron Livingston, Jennifer Aniston, David Herman, Ajay Naidu
 ================= DATA HERE ==================
-Song Name: 'undefined'
-Album Name: Night Train
-Artist Name: Jason Aldean
-URL: https://open.spotify.com/album/2uXHwdc2aTcUP2EhXKhPRu
+Song Name: 'pontoon'
+Album Name: Tornado
+Artist Name: Little Big Town
+URL: https://open.spotify.com/album/5IIYlM5tjDtW3fIgOIA5TB
 
 
+I Love Twitter
+hello world how are you tonight
+hello all, this is my first tweet ever
+After years of searching for the perfect location for our first golf course in Scotland, the @Trump team came acros… https://t.co/Jago4ZbnGw
 Look who stopped by to visit dad at work today! #BabyLuke @EricTrump @LaraLeaTrump @TrumpTower https://t.co/9uW2ttbOOV
 .@DonaldJTrumpJr and daughter, Kai, stop by The Trump Building at #40WallStreet to observe the lower level vaults o… https://t.co/SO9vUF7st1
 Make @TrumpGolfDubai your home away from home with the 2018 Summer Pass ☀️ Unlimited Play | Unlimited Practice | 25… https://t.co/aLul91DuIm
 RT @TrumpStore: Weekend wear. @LaraLeaTrump and Luke sport mother-son #TrumpStore gear! Find your family favorites with our #MothersDay col…
-Explore the all-new @TrumpDoonbeg Spring 2018 magazine for a peek into the west coast of Ireland and beyond!… https://t.co/4nf9b4Teaz
 The fourth tallest building in the United States, @TrumpChicago served as the inspiration for Dubai's Burj Khalifa,… https://t.co/PGrWafM0hw
 #MothersDay is less than 3 weeks away! Shop our @TrumpStore Mother's Day Gift Guide for a collection of deluxe spa… https://t.co/WDRrsCANS6
 We are delighted to announce our success at the @ScotHotelAwards with 5 prestigious awards celebrating… https://t.co/6Kv3BLyK3g
@@ -37,57 +76,3 @@ Happy #NationalPetDay to the ones who deliver unconditional love daily! https://
 Four iconic courses, the @RickSmithGolf Performance Center and our all-new #MembersClubhouse - just a couple of the… https://t.co/EazVD5m0VL
 The 2018 @CNTraveler Readers' Choice Awards survey has arrived! Vote now for your favorite @TrumpHotels and be ente… https://t.co/TvX3UAbRIP
 How's this for a 19th Hole? @TrumpGolf https://t.co/0bMUU3wXmp @TrumpColtsNeck https://t.co/DY4HFC5sdk
-
-================= DATA HERE ==================
-Song Name: 'over the rainbow'
-Album Name: Alone In Iz World
-Artist Name: Israel Kamakawiwo'ole
-URL: https://open.spotify.com/album/4aM85igbrBcoRZVt7L11Zn
-
-
-
-================= DATA HERE ==================
-Song Name: 'jump'
-Album Name: Jump (featuring Trippie Redd)
-Artist Name: Julia Michaels
-URL: https://open.spotify.com/album/2CH8od3NBJpsvqTdY3H1HH
-
-
-
-=================movie stuff here====================
-The movie's title is: Mr. Nobody 
-Year the movie came out: 2009 
- The movie's rating is: 7.9 
-The movie's rating is: [object Object] 
-Country where the movie was produced: Belgium, Germany, Canada, France, USA, UK 
-Language of the movie: English, Mohawk 
-Plot of the movie: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible. 
-Actors in the movie: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
-=================movie stuff here====================
-The movie's title is: Titans 
-Year the movie came out: 2000–2001 
- The movie's rating is: 7.1 
-The movie's rating is: undefined 
-Country where the movie was produced: USA 
-Language of the movie: English 
-Plot of the movie: The Williams family, a wealthy business family living in Hawaii, hide many secrets waiting to be revealed, divorce, illegitimate children, ex-spouses, alcoholism and forbidden love. 
-Actors in the movie: Casper Van Dien, Yasmine Bleeth, John Barrowman, Elizabeth Bogush
-=================movie stuff here====================
-The movie's title is: Undefined 
-Year the movie came out: 2014 
- The movie's rating is: N/A 
-The movie's rating is: undefined 
-Country where the movie was produced: Lebanon 
-Language of the movie: Arabic 
-Plot of the movie: N/A 
-Actors in the movie: Dana Ahmed, Fouz Alfahad, Nour Arida, Soraya Bakhtiarsong added from random.txt   "I Want it That Way"
-
-=================movie stuff here====================
-The movie's title is: Undefined 
-Year the movie came out: 2014 
- The movie's rating is: N/A 
-The movie's rating is: undefined 
-Country where the movie was produced: Lebanon 
-Language of the movie: Arabic 
-Plot of the movie: N/A 
-Actors in the movie: Dana Ahmed, Fouz Alfahad, Nour Arida, Soraya Bakhtiar
