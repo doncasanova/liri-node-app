@@ -5,6 +5,8 @@ var Spotify = require('node-spotify-api');
 var request = require("request");
 var fs = require("fs");
 var inquirer = require("inquirer");
+var movie;
+var songName
 //----------------------------------------------------------------------------------
 // calls twitter
 function twitterCall(userName) {
@@ -54,7 +56,7 @@ function movieCall(nameOfmovie) {
     if (!error && response.statusCode === 200) {
 
       var movieOb = JSON.parse(body)
-      
+
       for (var i = 0; i < movieOb.Ratings.length; i++) {
         if (movieOb.Ratings[i].Source == 'Rotten Tomatoes') {
           rottenTom = movieOb.Ratings[i].Value;
@@ -93,17 +95,40 @@ function movieCall(nameOfmovie) {
 // calls text from random.txt file
 function textFileCall() {
   fs.readFile("random.txt", "utf8", function (error, data) {
-
     if (error) {
       return console.log(error);
     }
+
     var dataArr = data.split(",");
-    var movie = dataArr[1]
+
+    var toDo = dataArr[0]
+  
+    var whatIwant = dataArr[1]
+  
+    
+    switch (toDo) {
+      case `my-tweets`:
+        twitterCall(whatIwant);
+        break;
+
+      case `spotify-this-song`:
+        spotifyCall(whatIwant);
+        break;
+
+      case `movie-this`:
+        if (whatIwant === '') {
+          var movie = "Mr. Nobody"
+        } else {
+          var movie = whatIwant
+        }
+        movieCall(movie)
+        break;
+    }
 
     addTextToFile('song added from random.txt   ' + dataArr[1] + "\n");
 
   });
-
+  
 }
 
 //-----------------------------------------------------------------------------------------
@@ -119,9 +144,6 @@ function addTextToFile(textToadd) {
     }
   });
 }
-
-
-
 
 //-----------------------------------------------------------------------------------------
 // check box function for enduser to request a action
@@ -164,7 +186,6 @@ function checkBox() {
 
         case `call-from-text-file`:
           textFileCall()
-          movieCall(movie)
           break;
       }
     });
